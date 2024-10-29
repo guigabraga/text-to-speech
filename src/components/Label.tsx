@@ -2,10 +2,12 @@ export default function Label() {
   return (
     <p
       style={{
-        color: 'white'
+        color: "rgb(224, 224, 224)",
+        fontSize: "16px",
+        fontWeight: 500
       }}
     >
-      Digite seu texto para transformá-lo em áudio.
+      Digite um texto para transformá-lo em áudio.
     </p>
   );
 }
